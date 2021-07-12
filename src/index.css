@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.trac-history {
+  height: 30vh;
+  background-color: #181414;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.trac-history div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trac-history div span {
+  display: flex;
+}
+.trac-history div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.trac-history div div p {
+  margin: 0;
+}
+.trac-history .icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+.trac-history .locations {
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.banner {
+  background-image: url("https://images.pexels.com/photos/6169013/pexels-photo-6169013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 91vh;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner .text {
+  height: 400px;
+  width: 500px;
+  position: relative;
+  top: 30%;
+  left: 13%;
+  font-family: Helvetica, sans-serif;
+  opacity: 0.8 div;
+  opacity-animation: heading;
+  opacity-animation-duration: 3s;
+  opacity-animation-fill-mode: forwards;
+}
+@keyframes heading {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 30%;
+  }
+}
+.banner .text button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5em 2em;
+  cursor: pointer;
+}
+.banner .text a{
+  color: #fff;
+  text-decoration: none;
+}
+.banner .text button:hover {
+  background-color: aqua;
+}
+
+.request-quote {
+  padding: 1em;
+  display: flex;
+  height: 86vh;
+}
+.request-quote img {
+  width: 100%;
+}
+.request-quote div {
+  display: flex;
+}
+.request-quote #reqQuoteForm {
+  padding: 0;
+}
+.request-quote #reqQuoteForm section {
+  margin: 1em 0;
+}
+.request-quote #reqQuoteForm select {
+  height: 2em;
+  border: 1px solid lightblue;
+}
+.request-quote #reqQuoteForm .name-and-email {
+  margin: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+.request-quote #reqQuoteForm .name-and-email input {
+  margin: 1em 0;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  border: 1px solid lightblue;
+  height: 2em;
+  width: 100%;
+}
+.request-quote #reqQuoteForm #serviceType {
+  display: grid;
+}
+.request-quote #reqQuoteForm #location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.request-quote #reqQuoteForm #location select {
+  width: 49%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #f1e6e6;
+}
+nav .logo {
+  align-self: center;
+  padding-left: 5em;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  /* background-color: aquamarine; */
+  justify-content: flex-end;
+  margin: 0;
+  padding: 1em 0;
+}
+nav a {
+  padding: 0 1em;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: #201e1e;
+  color: #f1e6e6;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  height: 81vh;
+  box-shadow: 1px 5px 10px 0 #c7bcbc;
+  transition: 0.3s;
+  background-color: #fff;
+  text-align: center;
+  margin: 1em auto;
+  padding: 1em;
+}
+.card div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  padding: 1em;
+  border-right: 2px solid orangered;
+}
+.card div a {
+  text-decoration: none;
+}
+.card div i {
+  font-size: 100px;
+  align-self: center;
+}
+.card .last-chaild {
+  border: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-shadow: 1px 5px 10px 0 #c7bcbc;
+  transition: 0.3s;
+}
+
+span {
+  padding-bottom: 5px;
+  border-bottom: 2px solid orangered;
+}
+
+.content {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  height: 91vh;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 1em;
+}
+.content .transport-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(170px, auto);
+  grid-gap: 1em;
+}
+.content .transport-types img {
+  width: 100%;
+  height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */

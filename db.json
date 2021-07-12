@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "requsts": [
+    {
+      "id": 1,
+      "destination": "LB nagar",
+      "email": "duggempudisrinu520@gmail.com",
+      "fullname": "Srinu Duggempudi",
+      "location": "Sr Nagar",
+      "serviceType": "air"
+    },
+    {
+      "fullname": "Srinu Duggempudi",
+      "email": "duggempudisrinu520@gmail.com",
+      "serviceType": "road",
+      "location": "Sr Nagar",
+      "destination": "LB nagar",
+      "": "",
+      "id": 2
+    },
+    {
+      "fullname": "D Srinu",
+      "email": "duggempudisrinu520@gmail.com",
+      "serviceType": "road",
+      "location": "LB nagar",
+      "destination": "Sr Nagar",
+      "": "",
+      "id": 3
+    },
+    {
+      "fullname": "anji",
+      "email": "duggempudisrinu520@gmail.com",
+      "serviceType": "road",
+      "location": "LB nagar",
+      "destination": "Sr Nagar",
+      "": "",
+      "id": 4
+    }
+  ]
+}
